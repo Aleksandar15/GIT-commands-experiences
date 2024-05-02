@@ -61,7 +61,7 @@ Continuation from https://github.com/Aleksandar15/GIT-reminds-commands, except i
 - **UPDATE3:** (*As written in the experience number #2, above, towards the very ending:*) Again, all of this could have been avoided if I had created a branch by following the instructions below instead of branching off of "_feature_18_" branch and gathering its **unwanted commits history** for the back-then-new "_hotfix_2_" branch!
   - (As I had written in my own [comment](https://github.com/Aleksandar15/Cars-Club-frontend/pull/56#issuecomment-1998917385) in [/pull/56](https://github.com/Aleksandar15/Cars-Club-frontend/pull/56) at Cars-Club-frontend.)
   - Create a branch
-    1. `git checkout main` from any folder in my local `project-folder-name` repository.
+  - 1. `git checkout main` (or `git switch main`) from any folder in my local `project-folder-name` repository.
     1. `git pull origin main` to ensure I have the **latest `main`** code.
     1. `git checkout -b the-name-of-my-branch` (replacing `the-name-of-my-branch` with a suitable name) to create a branch.
        - (*Source for these steps are the [react.dev doc's](https://github.com/reactjs/react.dev?tab=readme-ov-file#create-a-branch) at their GitHub README.*)
