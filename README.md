@@ -116,6 +116,6 @@ remote: Permission to randomUsername/project-name.git denied to Aleksandar15.
 fatal: unable to access 'https://github.com/randomUsername/project-name.git/': The requested URL returned error: 403
 ```
   - Mind you, I am able to `git add` or `git commit` as that's kept in my local repository.
-7. Besides `get restore .` now even using the `--staged` flag seems to work with dot `.` meaning it allows to run `git restore --staged .` to restore all *staged* files at once, whereas previously it required an exact file's location - meaning 1 single file was allowed at maximum, but this new update kind of fixed/improved its usability.
+7. Besides `git restore .` now even using the `--staged` flag seems to work with dot `.` meaning it allows to run `git restore --staged .` to restore all *staged* files at once, whereas previously it required an exact file's location - meaning 1 single file was allowed at maximum, but this new update kind of fixed/improved its usability.
 -  As for now 2 August 2024 git version is git version `2.36.1.windows.1`.
 
